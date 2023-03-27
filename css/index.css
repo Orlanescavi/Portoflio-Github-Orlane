@@ -1,0 +1,325 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.tab1{
+    display: grid;
+    width: 100%;
+    height: 10vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    position: fixed;
+    background-color: #233D4D;
+    box-shadow: 2px 2px 5px rgb(107, 107, 107);
+    top: 0;
+    z-index: 1;
+}
+
+h1{
+    font-size: 15px;
+    margin-top: -1%;
+    margin-left: 25%;
+    cursor: pointer;
+}
+
+.link_logo{
+    color: #ffffff;
+}
+
+.link_logo:hover{
+    color: #ffffff;
+}
+
+nav{
+    grid-column: 2;
+}
+
+.menu{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+li, ul, a{
+    margin: 10px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+    font-size: 18px;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a:hover{
+    color: #A1C181;
+}
+
+.tab2{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.container_principal-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: #233D4D;
+    font-size: 50px;
+    margin-left: 25%;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.description_principal-text{
+    color: #808080;
+    margin-left: 25%;
+    margin-top: 5%;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#button{
+    margin-left: 23%;
+    margin-top: 5%;
+    width: 180px;
+    height: 40px;
+    background: #233D4D;
+    border: 0px solid #233D4D;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color:  #A1C181;
+}
+
+.center-illustration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#illustration{
+    width: 450px;
+    height: 450px;
+    background-color: #ffffff;
+    border: 10px solid #619B8A;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px #858585;
+    border-radius: 35%;
+    animation: wave 15s infinite linear;
+}
+
+@keyframes wave {
+    from { transform: rotate(0deg);}
+    from { transform: rotate(360deg);}
+}
+
+#avatar{
+    width: 100%;
+}
+
+.tab3{
+    display: grid;
+    width: 100%;
+    height: 10vh;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+h4{
+    color: #333745;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 2%;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.tab4{
+    display: grid;
+    width: 100%;
+    height: 60vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.center_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    cursor: pointer;
+    width: 250px;
+    height: 300px;
+    background-color: #233D4D;
+    box-shadow: 5px 5px 5px black;
+    transition: 0.5s;
+}
+
+.card:hover{
+    background-color: #14232c;
+}
+
+#card-shape{
+    margin-top: 11%;
+    width: 100px;
+    height: 50px;
+    border-bottom: solid 50px #619B8A;
+    border-left: solid 50px #619B8A;
+    border-right: solid 100px transparent;
+    border-top: solid 25px transparent;
+}
+
+#card-shape1{
+    margin-top: 18%;
+    width: 100px;
+    height: 50px;
+    border-bottom: solid 50px #619B8A;
+    border-left: solid 50px #619B8A;
+    border-right: solid 100px transparent;
+    border-top: solid 25px transparent;  
+}
+
+#card-shape2{
+    margin-top: 18%;
+    width: 100px;
+    height: 50px;
+    border-bottom: solid 50px #619B8A;
+    border-left: solid 50px #619B8A;
+    border-right: solid 100px transparent;
+    border-top: solid 25px transparent;  
+}
+
+h3{
+    color: #ffffff;
+    text-align: center;
+    font-size: large;
+    padding: 5px;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.text_card{
+    color: #ffffff;
+    text-align: center;
+    font-size: small;
+    margin-top: 45%
+}
+
+.languages{
+    width: 100px;
+    display: flex;
+    color: #233D4D;
+    font-size: xx-small;
+    margin-left: -40px;
+    margin-top: 35px;
+}
+
+.tab5{
+    display: grid;
+    width: 100%;
+    height: 10vh;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.contact{
+    color: #333745;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+}
+
+.tab6{
+    display: grid;
+    width: 100%;
+    height: 10vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.center_mail{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.center_linkedin{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#mail{
+    background-color: #A1C181;
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#mail:hover{
+    background-color: #688051; 
+}
+
+#linkedin{
+    background-color: #233D4D;
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#linkedin:hover{
+    background-color: #14232c; 
+}
+
+.tab7{
+    display: grid;
+    width: 100%;
+    height: 5vh;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-color: #233D4D;
+}
+
+h6{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

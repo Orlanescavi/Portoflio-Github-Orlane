@@ -1,0 +1,231 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.tab1{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    position: fixed;
+    background-color: #233D4D;
+    box-shadow: 2px 2px 5px rgb(107, 107, 107);
+    top: 0;
+    z-index: 1;
+}
+
+h1{
+    font-size: 15px;
+    margin-top: -1%;
+    margin-left: 25%;
+    cursor: pointer;
+}
+
+.link_logo{
+    color: #ffffff;
+}
+
+.link_logo:hover{
+    color: #ffffff;
+}
+
+nav{
+    grid-column: 2;
+}
+
+.menu{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+li, ul, a{
+    margin: 10px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+    font-size: 18px;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a:hover{
+    color: #A1C181;
+}
+
+.tab2{
+    display: grid;
+    width: 100%;
+    height: 35vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.tab2_col1{
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+h2{
+    color: #233D4D;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.tab2_col2{
+    display: flex;
+    margin-left: 70%;
+    margin-top: 20%;
+}
+
+#adobe{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: right;
+    transition: 0.5s;
+}
+
+#adobe:hover{
+    border: 2px solid #A1C181;
+    border-radius: 50px;
+}
+
+
+.center-banner{
+    margin-left: 12.5%;
+}
+
+.tab4{
+    display: grid;
+    width: 100%;
+    height: 65vh;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.position_text-presentation{
+    margin-left: 13%;
+    margin-top: 3%;
+    width: 70%;
+}
+
+.text_apropos{
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #808080;
+    margin-top: 2%;
+}
+
+.tab5{
+    display: grid;
+    width: 100%;
+    height: 60vh;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.center_screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab6{
+    display: grid;
+    width: 100%;
+    height: 10vh;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.contact{
+    color: #333745;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.tab7{
+    display: grid;
+    width: 100%;
+    height: 10vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.center_mail{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.center_linkedin{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#mail{
+    background-color: #A1C181;
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#mail:hover{
+    background-color: #688051; 
+}
+
+#linkedin{
+    background-color: #233D4D;
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#linkedin:hover{
+    background-color: #14232c; 
+}
+
+.tab8{
+    display: grid;
+    width: 100%;
+    height: 5vh;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-color: #233D4D;
+}
+
+h6{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
